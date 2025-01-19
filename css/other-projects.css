@@ -1,0 +1,44 @@
+main {
+    h2 {
+        font-family: kenyan;
+        font-size: 2.5em;
+        text-transform: uppercase;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        div.container {
+            border: solid 1px black;
+            border-radius: 15px;
+            border-block: solid 50px black;
+            padding: 20px;
+            margin-block: 50px;
+            max-width: 100%;
+            transition:  border 500ms, padding 500ms;
+            h3 {
+                font-family: kenyan;
+                font-size: 1.75em;
+                text-transform: uppercase;
+            }
+            div {
+                font-family: caviar;
+                display: flex;
+                font-size: 1.25em;
+                img {
+                    flex: 1;
+                    width: 50%;
+                }
+                div {
+                    flex: 1;
+                    padding-inline: 20px;
+                }
+            }
+        }
+        div.container:hover {
+            border: solid 1px black;
+            padding-block: 50px;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    }
+    
+}
