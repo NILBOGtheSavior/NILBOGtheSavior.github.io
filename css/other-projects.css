@@ -36,7 +36,7 @@ main {
         }
         div.container:hover {
             border: solid 1px var(--primary);
-            padding-block: 50px;
+            padding-block: 70px;
             background-color: rgba(0, 0, 0, 0.1);
         }
     }
