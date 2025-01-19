@@ -38,6 +38,7 @@ main {
                     }
                 }
                 ul {
+                    padding-left: 25px;
                     li {
                         font-family: caviar;
                         color: var(--primary);

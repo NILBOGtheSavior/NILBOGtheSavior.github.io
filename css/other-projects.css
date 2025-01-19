@@ -14,7 +14,7 @@ main {
             padding: 20px;
             margin-block: 50px;
             max-width: 100%;
-            transition:  border 500ms, padding 500ms;
+            transition:  border 500ms, padding 500ms, box-shadow 500ms;
             h3 {
                 font-family: kenyan;
                 font-size: 1.75em;
@@ -37,7 +37,7 @@ main {
         div.container:hover {
             border: solid 1px var(--primary);
             padding-block: 70px;
-            background-color: rgba(0, 0, 0, 0.1);
+            box-shadow: inset 0px 0px 25px black;
         }
     }
     

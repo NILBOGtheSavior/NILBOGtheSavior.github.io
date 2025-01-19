@@ -9,9 +9,14 @@
 }
 body {
     background-color: var(--secondary);
+    
     header {
         display: flex;
         align-items: center;
+        border-bottom: solid 1px var(--primary);
+        transition: border 500ms;
+        margin: 0;
+        padding: 10px;
         div {
             height: 2em;
             width: 2em;
@@ -37,10 +42,13 @@ body {
             text-transform: uppercase;
             color: var(--primary);
         }
+    }header:hover {
+        border-bottom: solid 25px var(--primary);
     }
     main {
         margin: 20px auto;
         max-width: 850px;
+        min-height: 200px;
         padding-inline: 20px;
         section#hero {
             display: flex;
@@ -89,9 +97,11 @@ body {
     }
     
     footer {
-        margin: 10px;
+        padding: 10px;
         display: flex;
         justify-content: space-between;
+        border-top: solid 1px var(--primary);
+        border-bottom: solid 50px var(--primary);
         div#nav {
             font-size: 1.75em;
             font-family: kenyan;
@@ -119,6 +129,7 @@ body {
                 }
             }
             svg {
+                width: 25px;
                 height: 1.25em;
                 margin-inline-start: 5px;
             }
@@ -143,8 +154,31 @@ body {
 
 #wrapper-lightswitch {
     position: absolute;
+    top: 0px;
     right: 50px;
     svg {
-        width: 15px;
+        width: 25px;
+        animation: swing 4s infinite ease-in-out;
+        transform-origin: top center;
+    }:hover {
+        cursor: pointer; 
+    }
+}
+
+#light-switch {
+    cursor: grab;
+    
+}
+
+/* Swing animation */
+@keyframes swing {
+    0% {
+        transform: rotate(-2.5deg);
+    }
+    50% {
+        transform: rotate(2.5deg);
+    }
+    100% {
+        transform: rotate(-2.5deg);
     }
 }
