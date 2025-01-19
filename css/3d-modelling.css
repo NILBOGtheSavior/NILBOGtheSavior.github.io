@@ -4,13 +4,14 @@ main {
         font-size: 2em;
         text-transform: uppercase;
         margin-block: 2em 1em;
+        color: var(--primary);
     }
     section#models {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
         div.model {
-            border: solid 2px black;
+            border: solid 2px var(--primary);
             width: 250px;
             border-radius: 10px;
             overflow: hidden;
@@ -26,7 +27,7 @@ main {
             }
         }
         div.model:hover {
-            box-shadow: -2px 2px black;
+            box-shadow: -2px 2px var(--primary);
         }
     }
     section#cover-art {
@@ -34,7 +35,7 @@ main {
         flex-wrap: wrap;
         gap: 20px;
         div.artwork {
-            border: solid 2px black;
+            border: solid 2px var(--primary);
             width: 250px;
             border-radius: 10px;
             overflow: hidden;
@@ -50,7 +51,7 @@ main {
             }
         }
         div.artwork:hover {
-            box-shadow: -2px 2px black;
+            box-shadow: -2px 2px var(--primary);
         }
     }
 }

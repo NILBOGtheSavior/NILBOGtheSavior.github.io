@@ -6,11 +6,11 @@ main {
     }
     a {
         text-decoration: none;
-        color: black;
+        color: var(--primary);
         div.container {
-            border: solid 1px black;
+            border: solid 1px var(--primary);
             border-radius: 15px;
-            border-block: solid 50px black;
+            border-block: solid 50px var(--primary);
             padding: 20px;
             margin-block: 50px;
             max-width: 100%;
@@ -24,7 +24,7 @@ main {
                 font-family: caviar;
                 display: flex;
                 font-size: 1.25em;
-                img {
+                object.svg {
                     flex: 1;
                     width: 50%;
                 }
@@ -35,7 +35,7 @@ main {
             }
         }
         div.container:hover {
-            border: solid 1px black;
+            border: solid 1px var(--primary);
             padding-block: 50px;
             background-color: rgba(0, 0, 0, 0.1);
         }

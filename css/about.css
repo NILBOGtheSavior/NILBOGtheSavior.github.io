@@ -1,6 +1,6 @@
 main {
     section#about {
-        border: solid 1px black;
+        border: solid 1px var(--primary);
         border-radius: 10px;
         overflow: hidden;
         padding-block-end: 20px;
@@ -11,12 +11,13 @@ main {
             img {
                 align-self: flex-start;
                 width: 250px;
-                border: solid 1px black;
+                border: solid 1px var(--primary);
                 border-radius: 10px;
             }
             div#details {
                 h2, h3, h4 {
                     font-family: kenyan;
+                    color: var(--primary);
                 }
                 h2 {
                     margin-block-end: 0.5em;
@@ -29,8 +30,8 @@ main {
                     flex-wrap: wrap;
                     gap: 5px;
                     div.item {
-                        color: white;
-                        background-color: black;
+                        color: var(--secondary);
+                        background-color: var(--primary);
                         border-radius: 15px;
                         padding: 2px 5px;
                         font-family: caviar;
@@ -39,6 +40,7 @@ main {
                 ul {
                     li {
                         font-family: caviar;
+                        color: var(--primary);
                     }
                 }
             }
@@ -47,6 +49,7 @@ main {
             ul {
                 li {
                     font-family: caviar;
+                    color: var(--primary);
                 }
             }
         }

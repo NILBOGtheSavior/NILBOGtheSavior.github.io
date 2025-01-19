@@ -4,6 +4,7 @@ main {
         font-size: 2em;
         text-transform: uppercase;
         margin-block: 2em 1em;
+        color: var(--primary);
     }
     section#videos {
         div.video {
@@ -13,9 +14,11 @@ main {
             h3 {
                 font-family: kenyan;
                 font-size: 1.5em;
+                color: var(--primary);
             }
             h4 {
                 font-family: caviar;
+                color: var(--primary);
             }
             iframe {
                 width: 100%;
