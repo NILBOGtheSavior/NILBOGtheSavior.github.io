@@ -14,7 +14,7 @@ body {
         display: flex;
         align-items: center;
         border-bottom: solid 1px var(--primary);
-        transition: border 500ms;
+        transition: border-width 500ms;
         margin: 0;
         padding: 10px;
         div {
@@ -84,13 +84,13 @@ body {
                 text-align: center;
                 text-decoration: none;
                 color: var(--primary);
-                transition: 500ms;
+                transition: box-shadow 500ms;
                 img, svg {
                     width: 150px;
                 }
             }
             a.tile:hover {
-                background-color: rgba(0, 0, 0, 0.1);
+                /* background-color: rgba(0, 0, 0, 0.1); */
                 box-shadow: -2px 2px var(--primary);
             }
         }
