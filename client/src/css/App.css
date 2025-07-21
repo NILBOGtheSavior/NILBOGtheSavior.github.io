@@ -1,0 +1,45 @@
+#root {
+  max-width: 100%;
+  /* margin: 0 auto; */
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  width: 100px;
+  border: solid;
+  border-width: 0 2px 2px 0;
+  border-radius: 0 0 5px 0;
+  text-align: center;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.terminal {
+  outline: none;
+  padding: 1em;
+}
+
+.prompt::after {
+  content: "_";
+  animation: blink 1s step-start infinite;
+  color: var(--terminal-cursor);
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

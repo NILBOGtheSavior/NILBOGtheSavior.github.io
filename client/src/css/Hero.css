@@ -1,0 +1,25 @@
+.Hero {
+  display: flex;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 1em;
+}
+
+b {
+  color: var(--ansi-yellow);
+}
+
+.colorBlocks {
+  display: flex;
+  width: 300px;
+  height: 1em;
+}
+
+.colorBlocks div {
+  flex: 1;
+  height: 1em;
+  /* width: 50px; */
+}
