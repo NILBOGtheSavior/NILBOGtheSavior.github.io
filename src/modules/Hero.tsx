@@ -1,4 +1,4 @@
-import '/src/css/Hero.css'
+import '../css/Hero.css'
 
 export default function Header() {
   return (

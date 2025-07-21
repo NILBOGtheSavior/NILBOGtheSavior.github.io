@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import '/src/css/App.css'
+import './css/App.css'
 import Hero from './modules/Hero.tsx'
 import Readme from './modules/Readme.tsx'
 
